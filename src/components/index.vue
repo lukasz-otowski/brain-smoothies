@@ -57,10 +57,12 @@
 </script>
 
 <style>
+/*
     body {
         background: url(../assets/pexels.jpg) center / cover;
         background-blend-mode: multiply;
     }
+*/
 
     .index {
         display: grid;

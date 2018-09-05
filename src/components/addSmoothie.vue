@@ -83,6 +83,10 @@
 
 <style>
     .add-smoothie{
+        background: url(/static/img/pexels.06595a6.jpg) center / cover;
+        background-color: #ccc;
+        background-blend-mode: soft-light;
+        border: 3px solid #004;
         margin-top: 60px;
         padding: 20px;
         max-width: 500px;
@@ -91,10 +95,19 @@
         font-size: 2em;
         margin: 20px auto;
     }
-    .add-smoothie .field{
+    .add-smoothie .field {
         margin: 20px auto;
         position: relative;
     }
+    
+    .add-smoothie .field label {
+        color: #004;
+    }
+    
+    .add-smoothie .field input {
+        border-bottom: 1px solid #004;
+    }
+    
     .add-smoothie .delete{
         position: absolute;
         right: 0;
@@ -103,4 +116,7 @@
         font-size: 1.4em;
         cursor: pointer;
     }
+    
+    
+    
 </style>

@@ -91,6 +91,10 @@
 
 <style>
     .edit-smoothie {
+        background: url(/static/img/pexels.06595a6.jpg) center / cover;
+        background-color: #ccc;
+        background-blend-mode: soft-light;
+        border: 3px solid #004;
         margin-top: 60px;
         padding: 20px;
         max-width: 500px;
@@ -110,9 +114,17 @@
         position: absolute;
         right: 0;
         bottom: 16px;
-        color: #aaa;
+        color: #004;
         font-size: 1.4em;
         cursor: pointer;
     }
-
+    
+    .edit-smoothie .field input {
+        border-bottom: 1px solid #004;
+    }
+    
+    .edit-smoothie .field label {
+        color: #004;
+    }
+    
 </style>
